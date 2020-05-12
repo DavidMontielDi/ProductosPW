@@ -5,7 +5,7 @@ const colorFondo = {
 
 export default function Encabezado() {
   return (
-    <header class="bg-dark py-5 mb-5" style={colorFondo}>
+    <header class="bg-secondary py-5 mb-5">
       <div class="container h-100" >
         <div class="row h-100 align-items-center">
           <div class="col-lg-12">
