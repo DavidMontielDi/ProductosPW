@@ -10,9 +10,11 @@ export default function MenuSuperior() {
   return (
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
+        <Link to={"/"}>
         <a class="navbar-brand" href="#">
           Ejercicio Programacion Web
         </a>
+        </Link>
         <button
           class="navbar-toggler"
           type="button"
@@ -27,10 +29,12 @@ export default function MenuSuperior() {
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
+            <Link to={"/"}>
               <a class="nav-link" href="#">
                 Inicio
                 <span class="sr-only">(current)</span>
               </a>
+            </Link>
             </li>
             <li class="nav-item">
               <Link to={"/AcercaDe"} >
