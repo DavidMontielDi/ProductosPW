@@ -41,9 +41,7 @@ class FormContacto extends React.Component{
     }
 
     enviaDatos = (event) => {
-      alert(`Datos recibidos en el POST del formulario:
-      Nombre ${this.state.nombre}, Correo${this.state.correo}, 
-      Telefono ${this.state.telefono}, Mensaje ${this.state.mensaje}
+      alert(`Mensaje enviado
       `)
       this.setState({
         info: 'Gracias por contactarnos.',
